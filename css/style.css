@@ -1,13 +1,22 @@
-:root{
-
+:root {
 }
 
 .head-headding {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-.head-headding2{
-    font-family: 'Poppins', sans-serif;
+.head-headding2 {
+  font-family: "Poppins", sans-serif;
 }
-.heading-texthighlight{
-    color: red;
+.heading-texthighlight {
+  color: red;
+}
+
+.box{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.box img{
+    width: 100%;
 }
