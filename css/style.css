@@ -1,3 +1,13 @@
 :root{
-    background: green;
+
+}
+
+.head-headding {
+    font-family: 'Poppins', sans-serif;
+}
+.head-headding2{
+    font-family: 'Poppins', sans-serif;
+}
+.heading-texthighlight{
+    color: red;
 }
