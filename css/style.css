@@ -1,7 +1,7 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins",sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .head-headding {
@@ -14,70 +14,102 @@ body{
 }
 .heading-texthighlight {
   color: red;
-  
 }
 
-
-
-
-.box{
-    float: left;
-    width: 40%;
-    margin-left: 5%;
-    padding-left: 2%;
+.box {
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
 }
-.box img{
-    width: 100%;
+.box img {
+  width: 100%;
 }
-.bg-banner{
-    
-    background-image: url("../image/top-banner.png");
-    height: 100vh;
-    background-repeat: no-repeat;
+.bg-banner {
+  background-image: url("../image/top-banner.png");
+  height: 100vh;
+  background-repeat: no-repeat;
 }
-.hireme{
-    padding: 10px 35px;
-    border: none;
-    background-image: linear-gradient(45deg,lightsalmon,tomato );
-   margin-top: 10px;
-   
-   
+.hireme {
+  padding: 10px 35px;
+  border: none;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  margin-top: 10px;
 }
-.hireme > a{
-    text-decoration: none;
-    color: white;
+.hireme > a {
+  text-decoration: none;
+  color: white;
 }
 
 /* end first section  */
 
-.rox{
-    float: left;
-    width: 40%;
-    margin: 2%;
-    padding: 2%;
-}
- 
-.rox > img{
-    width: 100%;
-}
-.resume-dwbutton{
-    padding: 10px 30px;
-    background-image: linear-gradient(45deg ,lightsalmon, tomato);
-    border:none;
-    color: white;
+.rox {
+  float: left;
+  width: 40%;
+  margin: 2%;
+  padding: 2%;
 }
 
-.resume-dwbutton >a {
-    text-decoration: none;
-    color: white;
+.rox > img {
+  width: 100%;
+}
+.resume-dwbutton {
+  padding: 10px 30px;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  border: none;
+  color: white;
 }
 
-.dream-section{
-    width: 100%;
+.resume-dwbutton > a {
+  text-decoration: none;
+  color: white;
+}
+
+.dream-section {
+  width: 100%;
+  height: 90vh;
+  background-image: url("/image/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.cox {
+  float: left;
+}
+
+.box-title-highlight {
+  color: tomato;
+}
+
+.fexp {
+  box-shadow: 5px 5px 31px -10px;
+  height: 350px;
+  /* text-align: center; */
+  border-left: green;
+}
+.sexp {
+  box-shadow: 5px 5px 31px -10px;
+  height: 350px;
+  /* text-align: center; */
+  border-left: green;
+}
+
+.experiences {
+  background-image: url("/image/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
   height: 80vh;
-   background-image: url("/image/dream-bg.png");
-   background-repeat: no-repeat;
-   background-position: right;
-
 }
 
+#gradient-border1 {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+
+#gradient-border2 {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+/* finish css */
