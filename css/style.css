@@ -60,4 +60,24 @@ body{
 .rox > img{
     width: 100%;
 }
+.resume-dwbutton{
+    padding: 10px 30px;
+    background-image: linear-gradient(45deg ,lightsalmon, tomato);
+    border:none;
+    color: white;
+}
+
+.resume-dwbutton >a {
+    text-decoration: none;
+    color: white;
+}
+
+.dream-section{
+    width: 100%;
+  height: 80vh;
+   background-image: url("/image/dream-bg.png");
+   background-repeat: no-repeat;
+   background-position: right;
+
+}
 
